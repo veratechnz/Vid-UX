@@ -1,0 +1,90 @@
+.toolbar{
+	display:none;
+}
+
+.custom-toolbar {
+
+	position: relative;
+	margin-bottom: 100px;
+	background-color: $grey-dark-c;
+	height: 5.5em;
+	z-index: 500;
+	border-bottom: 5px solid $red;
+
+	.btn{
+		font-size: 20px;
+		border: none;	
+		color: $white-icon;
+		background-color: $grey-dark-c;
+		margin-top: 23px;
+		margin-right: 8px;
+	}
+
+	.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn.active.focus {
+	    outline: none !important;
+	}
+
+	a, a:active, a:focus {
+		outline: none;
+	}
+
+	.btn:active, .btn:clicked, .btn:focus {
+		outline: none;
+	}
+
+	/*All Tool bar Button States. Hover Visited Clicked ETC*/
+	.btn-default.disabled:hover, 
+	.btn-default[disabled]:hover, 
+	fieldset[disabled] .btn-default:hover, 
+	.btn-default.disabled:focus, 
+	.btn-default[disabled]:focus, 
+	fieldset[disabled] .btn-default:focus, 
+	.btn-default.disabled.focus, 
+	.btn-default.focus[disabled], 
+	fieldset[disabled] .btn-default.focus {
+		background-color: $grey-dark-c;
+	}
+	.btn:hover i {
+		color: $red;
+	}
+
+}
+
+.tool-bar-rotate {
+	display: inline;
+	right: 57px;
+	float: right;
+}
+
+.tool-bar-search {
+	display: inline;
+	width: 30%;
+}
+
+.tool-bar-zoom {
+	display: inline-block;
+	width: 30%;
+	margin-left: 23%;
+
+}
+
+.pdfViewer {
+	padding-top: 5%;
+}
+
+.zoom-text {
+	margin-right: 10px;
+}
+
+.doc-modal {
+
+	.modal-dialog {
+		width: 90%;
+		z-index: 9999;
+	}
+	
+}
+
+	
+
+

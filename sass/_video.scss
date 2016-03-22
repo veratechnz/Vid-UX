@@ -1,0 +1,155 @@
+/*Video Section */
+
+.video-container {
+	background-color: #363636;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 65px;
+	height: 90vh;
+	border: 2px solid #434A5B;
+
+	h1 {
+		margin-bottom: 3%;
+	}
+}
+
+.video-js {
+	width: 95%;
+	height: 450px;
+	margin: 0 auto;
+}
+
+.video-controls {
+	width: 92%;
+	height: 110px;
+	background-color: $grey-dark-d;
+	border: 1px solid $grey-border;
+	margin: 0 auto;
+	margin-top: 152px;
+	i {
+		font-size: 55px;
+		color: #fff;
+		position:relative;	
+		cursor: pointer;
+	}
+
+	i:hover {
+		color: $red;
+	}
+
+	.back {
+		top: 7px;
+		right: 30%;
+	}
+	.play {
+		top: 16px;
+		right: 0%;
+		font-size: 75px;
+	}
+	.next {
+		top: 7px;
+		left: 30%;
+	}
+
+}
+
+.new-div {
+	background-color: $grey-dark-c;
+}
+
+/*Slider Control*/
+
+.video-js .vjs-control {
+	position: relative;
+	width: 100%;
+
+	.vjs-progress-holder {
+		height: 2em;
+	}
+
+	.vjs-play-progress {
+		background-color: $grey-border;
+		height: 1.65em;
+		margin-top: 2px;
+	}
+
+	.vjs-play-progress:before {
+		font-size: 5em;
+	}
+
+	.vjs-slider {
+		margin-top: 595px;
+		background-color: rgb(228, 100, 75);
+
+		.vjs-load-progress {
+			height: 2em;
+			background-color: $red-light;		
+		}
+
+	}
+
+
+}
+
+.btn-success.vid-btn-a {
+	float: right;
+	margin: 8px 15px 25px 0px;
+}
+
+.videos-div {
+
+	position: relative;
+
+	i.fa.fa-play-circle {
+		position: absolute;
+		color: $grey-border;
+		font-size: 6.4em;
+		left: 40%;
+		top: 27%;
+		opacity:0;
+		transition:opacity 0.3s linear;
+		-webkit-transition-delay: 0.05s; /* Safari */
+	}
+
+	i.fa.fa-play-circle:hover {
+		display: inline;
+	}
+
+	i.fa.fa-play-circle:active, i.fa.fa-play-circle:focus {
+		color: $red;
+	}
+
+}
+
+/*On hover display child icon*/
+
+.videos-div:hover {
+	cursor: pointer;
+	-webkit-box-shadow:0 0 20px $grey-border; 
+	-moz-box-shadow: 0 0 20px $grey-border; 
+	box-shadow:0 0 20px $grey-border;
+
+	i.fa.fa-play-circle {
+		opacity: 1;
+	}
+
+}
+
+
+/*Jquery class*/
+.select-border {
+	border: 3px solid $red !important; 	
+}
+
+.red-it {
+	color: $red !important
+}
+
+.show-it {
+	opacity: 1 !important;
+}
+
+.videos-section .vid-btn-a:hover {
+	border: 1px solid $red;
+}
+

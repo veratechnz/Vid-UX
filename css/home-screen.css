@@ -1,0 +1,18 @@
+.project .panel-body{
+	height:100%;
+	text-align: center;
+
+}
+
+.project button{
+	position: relative;
+	top:140px;
+}
+
+.ptoject img{
+	width:60px;
+}
+
+#project_01{
+	width:250px;
+}

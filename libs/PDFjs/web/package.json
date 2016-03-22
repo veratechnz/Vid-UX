@@ -1,0 +1,9 @@
+{
+  "name": "Equip3D",
+  "main": "viewer.html",
+  "fullscreen" : true,
+  "chromium-args": "--touch-events --enable-touch-drag-drop",
+  "dependencies": {
+    "nedb": "^1.8.0"
+  }
+}

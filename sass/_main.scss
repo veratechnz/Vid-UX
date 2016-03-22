@@ -1,0 +1,442 @@
+/*Custom CSS*/
+
+/*HTML Overrides*/
+body {
+	background-color: $grey-dark-d;
+	overflow: hidden;
+}
+
+iframe {
+	border: 2px solid $grey-border;
+	overflow: hidden;
+}
+
+/*Font Definitions*/
+
+
+
+/*Bootstrap Overrides*/
+
+.panel {
+	border-radius: 0px;
+	border: solid 1px $grey-dark;
+}
+
+.btn {
+	border-radius: 0px;
+}
+
+.panel-default div.panel-heading {
+	background-color: $grey-dark;
+	h3{
+		color: $white-icon;
+	}
+}
+
+body .panel-heading {
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+
+
+
+
+
+ .dropdown-toggle.btn-success.focus {
+    background-color: $red;
+    border-color: $red;
+    color: $white-icon;
+}
+
+
+.project{
+	position: relative;
+	display: inline-block;
+	width: 20%;
+	margin-right:2.5%;
+	margin-left:2.5%;
+}
+ 
+.top-header {
+	background-color: $grey-dark-c;
+	height: 4.2em;	
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.alerts-block {
+	float: right;
+	margin-top: 7px;
+	margin-right: 15px;
+}
+
+.alerts-block i {
+	color: $white-icon;
+	font-size: 20px;
+	padding: 16px;
+}
+
+.alerts-block i:hover {
+
+	color: $red;
+
+}
+
+.project button {
+	position: static;
+}
+
+/*Custom CSS*/
+.project {
+	width: 24%;
+	margin: 0% 3% 4% 3%;
+}
+
+.panel-image {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.project .panel-body p {
+	margin-top: 18px;
+	text-align: left;
+	width: 98%;
+	margin: 0 auto;
+	font-size: 13px;
+	padding: 2%;
+}
+
+.panel-default.project{
+	background-color: $grey-dark;
+	font-color: $white-icon;
+	border: 2px solid $grey-border;
+}
+
+.panel-heading {
+	border-bottom: 1px solid $red;
+	padding-bottom: 30px;
+}
+
+h3.panel-title{
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 19px;
+	font-weight: normal;
+	padding-left: 13px;
+	width: 40%;
+	color: $white-icon;
+}
+
+.add-div {
+	display: inline-block;
+	width: 45%;
+	float: right;
+}
+
+
+.btn-success {
+	display: inline;
+	background-color: $grey-dark-c;
+	margin: 25px 4px 0px 4px;
+	text-transform: uppercase;
+	font-size: 13px;
+	border: 1px solid $grey-border;
+	padding: 13px 20px;
+}
+
+.btn-success:hover{
+	background-color: $grey-dark-c;
+	border-color: $grey-border;
+	outline: none !important;
+}
+
+.btn-success:active, .btn-success:visited  {
+	background-color: $grey-dark-c !important;
+	outline: none !important;
+	border-color: $red;
+}
+
+
+ .btn-success:focus 
+{
+	background-color: $grey-dark-c !important;
+	outline: none !important;
+	border-color: $grey-border;
+
+}
+	
+.panel-body p {
+	color: $white-icon;
+	border: 1px solid $grey-border;
+	padding: 8px;
+	margin: 5px 0px 8px 5px;
+}
+
+.panel-default > .panel-heading {
+	border: 1px solid $grey-dark;
+}
+
+
+
+/* Documents */
+
+.contain-docs {
+	width: 96%;
+	margin: 0 auto;
+}
+
+.documents-page {
+	height: 90vh;
+}
+
+.doc-background {
+	background-color: $grey-dark-d;
+	height: 90vh;
+	height: 90vh;
+}
+
+.back-button {
+	color: $white-icon;
+	display: inline;
+	float: left;
+	margin-top: 18px;
+	padding-left: 10px;
+	font-size: 18px;
+
+	a {
+		color: $white-icon;
+		text-decoration: none;
+	}
+
+	a:hover, a:hover, a:hover {
+		color: $red;
+		text-decoration: none;
+	}
+
+	i {
+		font-size: 20px;
+	}
+}
+
+.back-text {
+	margin-top: 8px;
+	margin-left: 15px;
+	font-size: 18px;	
+}
+
+.page-div {
+	margin: 28px;
+}
+
+h2.home-title {
+	display: inline-block;
+	color: $white-icon;
+	background-color: $grey-dark-c;
+	margin: 9px 0px 0px 0px;
+	padding: 11px;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: center;
+}
+
+/*h2.home-title {
+	display: inline-block;
+	color: $white-icon;
+	background-color: $grey-dark-c;
+	margin: 4px 0px 0px 0px;
+	padding: 15px;
+	font-size: 15px;
+	font-weight: 600;
+	width: 30%;
+}*/
+
+.pdf-section {
+	background-color: $grey-dark-d;	
+	height: 90vh;
+	padding: 0px 0px 0px 35px;
+	img{
+		margin-top: 30px;
+	}
+}
+
+.pages-section {
+	background-color: $red;
+	height: 90vh;
+
+	h3{
+		text-align: left;
+		border-bottom: 1px solid $white-icon;
+	}
+
+	.panel-heading {
+		margin-bottom: 42px;
+		margin-top: 6px;
+	}
+}
+
+.videos-section, .comments-section {
+	background-color: $grey-dark;
+	padding-left: 0px;
+	padding-right: 0px;
+	height: 90vh;
+	border: 2px solid $grey-border;
+
+	.panel-heading {
+		margin-bottom: 5%;
+		margin-top: 6px;
+		padding-bottom: 30px;
+		padding-left: 10px;
+	}
+
+	.panel-title {
+		position: relative;
+		margin-top: 19px;
+	}
+}
+
+.pdf-header {
+	background-color: $grey-dark-c;
+	height: 52px;
+}
+
+.pdf-footer {
+	background-color: $grey-dark-c;
+	height: 52px;
+	margin-top: 65px;
+	position: absolute; 
+	bottom: 0; 
+	width: 100%; 
+	height: 50px; 
+}
+
+.pdf-contain {
+	background-color: $white-icon;	
+	position: relative;
+	height: 90vh;
+}
+
+.pdf-menu-block {
+	float: left;
+	margin-top: 10px;
+	margin-right: 15px;
+	margin-left: 20px;
+	color: $white-icon;
+
+	i { 
+		padding: 7px;
+		font-size: 23px;
+	 }
+
+}
+
+.page-number {
+	color: $white-icon;
+	margin-top: 8px;
+}
+
+.videos-div,.comments-div {
+	background-color: $grey-dark-d;
+	font-color: $white-icon;
+	border: 2px solid $grey-border;
+	width: 92%;
+	margin: 0 auto;
+	margin-bottom: 10%;
+	padding: 12px;
+
+	h4{
+		color: $white-icon;
+		font-size: 15px;
+		text-transform: uppercase;
+		border-bottom: 1px solid $grey-border	;
+		padding-bottom: 8px;
+		margin-bottom: 2px;
+	}
+
+}
+
+.comment-field {
+	width: 96%;
+	margin: 0 auto;
+}
+
+.video-details, .comment-details {
+	margin: 10px 0px 5px 0px;
+
+	p{
+		font-weight: 500;
+		font-size: 15px;
+		color: $white-icon;
+	}
+
+	img {
+		display: block;
+		margin: 0 auto;
+		width: 48%;
+		padding: 8px 0px 8px 0px;
+		height: 15vh;
+	}
+}
+
+
+
+.add-btn {
+	 margin-top: 6px;
+}
+
+
+
+.toolbar-header {
+	background-color: black;
+	height: 120px;
+}
+
+.dropdownToolbarButton {
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.dropdownToolbarButton > select {
+	font-size: 16px;
+}
+
+
+html[dir="ltr"] .toolbarButton, html[dir="ltr"] .dropdownToolbarButton {
+	margin-top: 27px;
+	margin-left: 17px;
+}
+
+html[dir="ltr"] .overlayButton, {
+	margin: 0px;
+	padding: 17px;
+}
+
+.hand-red {
+	color: $red;
+}
+
+#overlayContainer > .container > .dialog {
+    border-spacing: 4px;
+    color: hsl(0, 0%, 85%);
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.overlayButton {
+	margin: 0px !important;
+}
+
+.toolbarButton, .dropdownToolbarButton, .secondaryToolbarButton, .overlayButton {
+    color: hsla(0, 0%, 100%, 0.8);
+    cursor: default;
+    font-size: 20px;
+    line-height: 0px;
+}
+
+.btn-default:active:focus, .btn-default.active:focus, .open > .dropdown-toggle.btn-default:focus, .btn-default.focus:active, .btn-default.active.focus, .open > .dropdown-toggle.btn-default.focus {
+    background-color: #141313;
+    border-color: #141313;
+    color: #333;
+}

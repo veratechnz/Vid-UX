@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet" href="./css/bootstrap.css">
+<!--    <link rel="stylesheet" href="./libs/data-tables/css/dataTables.min.css">
+        <link rel="stylesheet" href="./libs/data-tables/css/dataTables.editor.css"> -->
+        <!-- <link rel="stylesheet" type="text/css" href="./css/home-screen.css"> -->
+        <script src="./libs/jquery.min.js" type="text/javascript"></script>
+        <script src="./libs/bootstrap.min.js"></script>
+        <!-- PDF JS Links -->
+        <link rel="stylesheet" href="libs/pdfjs/web/viewer.css"/>
+        <link rel="stylesheet" href="css/video-js.css"> 
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="css/custom.min.css">
+<!--    <script src="../../jquery.min.js" type="text/javascript"></script>
+        <!-- This snippet is used in production (included from viewer.html) -->
+        <!-- <link rel="resource" type="application/l10n" href="locale/locale.properties"/> -->
+        <!-- PDF JS Links ENDS-->
+    </head>
+    
+
+    <body>  
+        <div class="row">
+            <div class="col-md-12 doc-background">
+                <div class="top-header">
+                    <a href="#" >
+                        <div class="back-button">
+                          <a href="">
+                            <i class="fa fa-arrow-left"></i>
+                            <span class="back-text">BACK</span>
+                          </a>
+                        </div>
+                    </a>
+                    <h2 class="home-title" id="pageTitle">TURBINE ASSEMBLY</h2>
+                    <div class="alerts-block">
+                        <a href="#"><i class="fa fa-search"></i></a>
+                        <a href="#"><i class="fa fa-gear"></i></a>
+                        <a href="#"><i class="fa fa-bell"></i></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="contain-docs documents-page">
+
+                        <!-- Comments Section / Input & Save Section -->
+                        <div class="col-md-3 videos-section">
+
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                  <span class="header-align">VIDEOS</span>
+                                </h3>
+
+                                <div class="add-div">
+                                  <button class="btn btn-success vid-btn-a" type="button">OPTIONS</button>
+                                </div>
+                            </div>
+                            
+                            <!-- Side Video Preview Containers -->
+
+                            <div class="videos-div" id="videoSelectA">
+                                <h4 id="videoTitle">video 01</h4>
+                                <div class="video-details">
+                                  <img src="img/vid-image-b.png" alt="">
+                                </div>
+                                <i class="fa fa-play-circle"></i>
+                            </div>
+
+
+                            <div class="videos-div" id="videoSelectB">
+                                <h4 id="videoTitle">video 01</h4>
+                                <div class="video-details">
+                                  <img src="img/vid-image-b.png" alt="">
+                                </div>
+                                <i class="fa fa-play-circle"></i>
+                            </div>
+
+
+                            <div class="videos-div" id="videoSelectC">
+                                <h4 id="videoTitle">video 01</h4>
+                                <div class="video-details">
+                                  <img src="img/vid-image-b.png" alt="">
+                                </div>
+                                <i class="fa fa-play-circle"></i>
+                            </div>
+
+                        </div>
+                        <!-- Comments Section / Input & Save Section  ENDS-->
+                        
+
+                        <!-- VIDEO Section -->
+                        <div class="col-md-9 text-center pdf-section">
+                          <div class="col-md-10 col-md-offset-1 video-container">   
+                            <div class="screen-container">
+                            <!-- HMTL5 Video Player and Object -->
+                             <video id="firstVideo" class="video-js vjs-big-play-centered " preload="auto" poster="">
+                                <source src="resources/video/video-test.mp4" type="video/mp4">
+                                <!-- Warning Message If HTML5 is not supported   -->
+                                <p class="vjs-no-js">
+                                  To view this video please enable JavaScript, and consider upgrading to a web browser
+                                  that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                                </p>
+                              </video> 
+                            <!-- HMTL5 Video Player and Object ENDS-->
+                          </div> <!-- Screen Container Ends -->
+
+
+                            <div class="video-controls" id="videoControls">
+                              <i id="videoBack" class="fa fa-fast-backward back"></i>
+                              <i id="videoPlay" class="fa fa-play-circle play"></i>
+                              <i id="videoNext" class="fa fa-fast-forward next"></i>
+                            </div>
+
+
+                            <div class="new-div">
+                              
+                            </div>
+
+
+                          </div>
+                        </div>
+                        <!-- VIDEO Section ENDS-->
+
+
+                    </div> <!-- Contain Div Ends -->
+                </div> <!-- Row Ends -->
+
+            </div> <!-- Div Col 12 Ends -->
+        </div><!-- Div Row Ends --> 
+
+    <!-- Javascript Libraries -->
+     <script src="libs/PDFjs/web/compatibility.js"></script>
+     <script src="libs/PDFjs/web/l10n.js"></script>
+     <script src="libs/PDFjs/build/pdf.js"></script>
+     <script src="libs/PDFjs/web/debugger.js"></script>
+    <!-- <script src="libs/PDFjs/web/viewer.js"></script> -->
+     <script src="js/video.min.js"></script>
+     <script src="js/video-custom.js"></script> 
+
+    <!-- Javascript Libraries End   -->
+    </body>
+    
+</html>

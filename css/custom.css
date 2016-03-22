@@ -1,0 +1,202 @@
+/*Custom CSS*/
+/*Imports*/
+/*Color Variables*/
+/*Overrides*/
+body {
+  background: #30384B; }
+
+/*Custom CSS*/
+/*Bootstrap Overrides*/
+.panel {
+  border-radius: 0px;
+  border: solid 1px #363636; }
+
+.btn {
+  border-radius: 0px; }
+
+.panel-default div.panel-heading {
+  background-color: #363636; }
+  .panel-default div.panel-heading h3 {
+    color: #FDFDFD; }
+
+body .panel-heading {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px; }
+
+.btn-success {
+  background-color: #141313;
+  margin: 25px 4px 0px 4px;
+  float: right;
+  text-transform: uppercase;
+  font-size: 12px;
+  border: 1px solid #434A5B; }
+
+.btn-success:hover {
+  background-color: #636363;
+  border-color: #636363; }
+
+.dropdown-toggle.btn-success.focus {
+  background-color: #E4644B;
+  border-color: #E4644B;
+  color: #FDFDFD; }
+
+.top-header {
+  background-color: #141313;
+  height: 4.2em;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px; }
+
+h2.home-title {
+  display: inline-block;
+  color: #FDFDFD;
+  background-color: #141313;
+  margin: 0px 0px 50px 0px;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 600;
+  width: 30%; }
+
+.alerts-block {
+  float: right;
+  margin-top: 18px;
+  margin-right: 15px; }
+
+.alerts-block i {
+  color: #FDFDFD;
+  font-size: 16px;
+  padding: 10px; }
+
+.project button {
+  position: static; }
+
+/*Custom CSS*/
+.project {
+  width: 24%;
+  margin: 0% 3% 4% 3%; }
+
+.panel-image {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.project .panel-body p {
+  margin-top: 18px;
+  text-align: left;
+  width: 98%;
+  margin: 0 auto;
+  font-size: 13px;
+  padding: 2%; }
+
+.panel-default.project {
+  background-color: #363636;
+  font-color: #FDFDFD;
+  border: 2px solid #434A5B;
+  height: 100%; }
+
+h3.panel-title {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: normal;
+  border-bottom: 1px solid #E4644B;
+  padding-bottom: 11px;
+  padding-left: 2px;
+  width: 98%; }
+
+.panel-body p {
+  color: #FDFDFD;
+  border: 1px solid #434A5B;
+  padding: 8px;
+  margin: 5px 0px 8px 5px; }
+
+.panel-default > .panel-heading {
+  border: 1px solid #363636; }
+
+/* Documents */
+.documents-page {
+  height: 100%; }
+
+.doc-background {
+  background-color: #CCCCCC;
+  height: 100%;
+  height: 100vh; }
+
+.back-button {
+  color: #FDFDFD;
+  display: inline;
+  float: left;
+  margin-top: 18px;
+  padding-left: 10px; }
+
+.page-div {
+  margin: 25px; }
+
+h2.doc-title {
+  display: inline-block;
+  color: #FDFDFD;
+  background-color: #141313;
+  margin: 4px 0px 0px 0px;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 600; }
+
+h3.doc-title {
+  color: #FDFDFD;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 24px; }
+
+.pages-section {
+  background-color: #E4644B;
+  min-height: 90vh; }
+
+.pdf-section {
+  background-color: #CCCCCC;
+  height: 90vh; }
+
+.comments-section {
+  background-color: #EFEFEF;
+  height: 90vh; }
+
+.pdf-header {
+  background-color: #141313;
+  height: 52px; }
+
+.pdf-footer {
+  background-color: #141313;
+  height: 52px;
+  margin-top: 65px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px; }
+
+.pdf-contain {
+  background-color: #FDFDFD;
+  position: relative;
+  height: 100%; }
+
+.pdf-menu-block {
+  float: left;
+  margin-top: 10px;
+  margin-right: 15px;
+  margin-left: 20px;
+  color: #FDFDFD; }
+  .pdf-menu-block i {
+    padding: 7px;
+    font-size: 23px; }
+
+.page-number {
+  color: #FDFDFD; }
+
+@media (min-width: 768px) {
+  .project button {
+    margin-top: 5%; } }
+
+@media (min-width: 992px) {
+  .project button {
+    margin-top: 5%; } }
+
+@media (min-width: 1200px) {
+  .project button {
+    margin-top: 10%; } }
