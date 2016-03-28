@@ -102,6 +102,7 @@ var videoTools = {
 		var player = this.vidObject;
 		var duration = player.currentTime();
 		var times = this.videoData.timeStamps;
+
 		//forwardButton
 		if (trigger.id === 'videoNext') {
 			//Calculate time marker
@@ -112,16 +113,19 @@ var videoTools = {
 						result = times[0];
 					} else if (duration < times[0]) {
 						result = times[0];
+					// } else if (times[0] % duration < ) {
 					} else if (duration >= times[0] && duration < times[1]) {
 						result = times[1];
 					} else {
 						result = times[2];
 					} 
 					return result;
+
 				} //test function ends		
 			}; //calc object ends
 			var setTimeForward = calcForward.test(); 
 			player.currentTime(setTimeForward);
+
 		} 
 
 		else if (trigger.id === 'videoBack') {
@@ -132,13 +136,22 @@ var videoTools = {
 					var result;
 					if (duration >= 0 && duration <= times[0]) {
 						result = 0;
-					} else if (duration > times[0] && duration <= times[1]) {
+					// For the final skip comparitive duration only applies to the Marvun Gaye Video length
+					} else if (duration > times[0] && duration <= times[1] && duration / times[0] > 1.01) {
 						result = times[0];
-					} else if (duration > times[1] && duration <= times[2]) {
+					//Skip test
+					} else if (duration / times[0] < 1.01) {
+						result = 0;
+					} else if (duration > times[1] && duration <= times[2] && duration / times[0] > 1.74) {
 						result = times[1];
-					} else {
+					//Skip test
+					} else if (duration / times[0] < 1.74) {
+						result = times[0];
+					} else if (duration > times[2] && duration / times[0] > 3.35) {
 						result = times[2];
-					} 
+					} else {
+					  	result = times[1];
+					}
 					return result;
 				} //test function ends		
 			}; //calc object ends
